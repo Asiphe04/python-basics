@@ -17,7 +17,7 @@ patient_sick = True #booean
 print('Hello' + ' ' + doctor )
 
 #IntToStr
-print('Hello' + ' ' + doctor )
+print('Hello' + ' ' + doctor + str(doc_number) + str(patient_sick) )
 
 #--------------------------------------------------------------------------------------------------
 
