@@ -17,7 +17,7 @@ patient_sick = True #booean
 print('Hello' + ' ' + doctor )
 
 #IntToStr
-print('Hello' + ' ' + doctor + str(doc_number) + str(patient_sick) )
+print('Hello' + ' ' + doctor + str(doc_number) + str(patient_sick) ) #converting numbr and boolean to string
 
 #--------------------------------------------------------------------------------------------------
 
@@ -40,4 +40,8 @@ print(dummyText.index('n')) #getting the position  where the specific letter is
 
 print(dummyText.replace('Change','Convert')) #replacing a word 
 
+#user input
+user_title = input("Please enter yor title: ")
+user_name = input("Please enter your first name: ")
+print("Hello" + ' ' + user_title + ' ' + user_name)
 
